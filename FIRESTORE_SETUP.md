@@ -6,7 +6,7 @@
 Stores Strava user authentication data.
 
 **Document ID**: `{strava_user_id}` (string)
-
+ 
 **Fields**:
 - `id` (number): Strava user ID
 - `username` (string): Strava username
