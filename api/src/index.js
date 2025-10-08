@@ -49,6 +49,11 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'UP' });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+// Only call app.listen() when running locally, not on Vercel
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
+}
+
+export default app;
