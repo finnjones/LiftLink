@@ -1,0 +1,8 @@
+{
+  "name": "liftlink-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "api"
+  ]
+}
