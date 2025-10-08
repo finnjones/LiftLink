@@ -26,7 +26,7 @@ const SettingsPage = () => {
         setSettings(prev => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         axios.post('/api/user/settings', settings)
             .then(() => alert('Settings saved!'))
