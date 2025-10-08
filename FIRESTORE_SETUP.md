@@ -17,7 +17,7 @@ Stores Strava user authentication data.
 - `updated_at` (timestamp): Last update timestamp
 
 **Indexes**: None required (queries by document ID)
-
+ 
 ---
 
 ### 2. `user_settings`
