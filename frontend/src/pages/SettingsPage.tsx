@@ -21,7 +21,7 @@ const SettingsPage = () => {
             });
     }, []);
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setSettings(prev => ({ ...prev, [name]: value }));
     };
