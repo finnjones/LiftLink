@@ -1,8 +1,8 @@
 {
-  "name": "liftlink-monorepo",
-  "private": true,
-  "workspaces": [
-    "frontend",
-    "api"
-  ]
+    "name": "liftlink-monorepo",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "api"
+    ]
 }
