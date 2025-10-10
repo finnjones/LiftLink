@@ -1,4 +1,7 @@
 {
+    "regions": [
+        "syd1"
+    ],
     "rewrites": [
         {
             "source": "/auth/(.*)",
